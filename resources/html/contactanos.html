@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Juvenil</title>
+    <!-- font awesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Font oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    
+    <!-- Botstrap for Gallery -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css"> -->
+    
+    <!-- Custom css -->
+    <!-- <link rel="stylesheet" href="/resources/css/gallery-grid.css"> -->
+    <link rel="stylesheet" href="/resources/css/contactanos-form.css">
+    <link rel="stylesheet" href="/resources/css/styles.css">
+    
+</head>
+<body>
+
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="container">
+        <nav class="nav-main">
+            <img src="/imagenes/logo.jpg" alt="Mente Juvenil logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="/index.html">Pagina principal</a>
+                </li>
+                
+                <li>
+                    <a href="/resources/html/galeria.html">Galeria</a>
+                </li><li>
+                    <a href="#">Proyectos Terminados</a>
+                </li><li>
+                    <a href="/resources/html/contactanos.html">Contactanos</a>
+                </li><li>
+                    <a href="#">Mas...</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search" id="icon-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <!-- search bar -->
+        <div id="ctn-bars-search">
+            <input type="text" id="inputSearch" placeholder="¿Que deseas buscar?">
+        </div>
+    
+        <div id="box-search">
+            <li><a href="#"><i class="fas fa-search" ></i>Galeria</a></li>
+            <li><a href="#"><i class="fas fa-search" ></i>Proyectos</a></li>
+            <li><a href="#"><i class="fas fa-search" ></i>Contactos</a></li>
+            <li><a href="#"><i class="fas fa-search" ></i>Iovana Hernandez Concepcion</a></li>
+            <li><a href="#"><i class="fas fa-search" ></i>Lentes</a></li>
+            
+        </div>
+
+        <div id="cover-ctn-search"></div>
+
+        <div class="contact_form">
+
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+        
+        
+                  <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                          <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                        </p>
+                      
+                        <p>
+                          <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                        </p>
+                    
+                        <p>
+                          <label for="telefone" class="colocar_telefono">Teléfono
+                          </label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                        </p>    
+                      
+                        <p>
+                          <label for="website" class="colocar_website">Sitio web
+                          </label>
+                            <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                        </p>    
+                      
+                        <p>
+                          <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                          </label>
+                            <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                        </p>    
+                      
+                        <p>
+                          <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                          </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+        
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                    
+                  </form>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title One</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blogchain</a>
+                </li>
+                <li>
+                    <a href="#">Blogchain</a>
+                </li>
+                <li>
+                    <a href="#">Blogchain</a>
+                </li>
+                
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Interesante</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Acerca de</a>
+                </li>
+                <li>
+                    <a href="#">Contactanos</a>
+                </li>
+                <li>
+                    <a href="#">informacion legal</a>
+                </li>
+                <li>
+                    <a href="/resources/galeria/galeria.html">galeria</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Colaboradores</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Iovana H.</a>
+                </li>
+                <li>
+                    <a href="#">Kike </a>
+                </li>
+                <li>
+                    <a href="#">Leonardo C.</a>
+                </li>
+                
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title One</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blogchain</a>
+                </li>
+                <li>
+                    <a href="#">Blogchain</a>
+                </li>
+                <li>
+                    <a href="#">Blogchain</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3> creado por Mente Juvenil © 2023</h3>
+    </footer>
+    <!-- Scroll reveal js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- jsPDF -->
+    <script src="https://unpkg.com/browse/jspdf@2.5.1/dist/jspdf.es.js"></script>
+
+
+    <!-- custom js -->
+    <script src="/resources/js/main.js"></script>
+    <script src="/resources/js/pdfs.js"></script>
+
+
+    
+</body>
+</html>
